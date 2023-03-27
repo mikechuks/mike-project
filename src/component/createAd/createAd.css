@@ -1,0 +1,52 @@
+.inputBoxAd{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inputAd{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 5px 100px;
+}
+.inputAd input{
+    display: flex;
+    align-items: stretch;
+    height: 50px;
+    width: 250px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+.inputAd select{
+    display: flex;
+    align-items: stretch;
+    height: 50px;
+    width: 250px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+@media (min-width:400px ) and (max-width:549px ) {
+    .inputAd input{
+        display: flex;
+        align-items: stretch;
+        height: 50px;
+        width: 350px;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        outline: none;
+        font-size: 16px;
+    }
+    .inputAd select{
+        display: flex;
+        align-items: stretch;
+        height: 50px;
+        width: 350px;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        outline: none;
+        font-size: 16px;
+    }
+}

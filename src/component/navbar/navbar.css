@@ -1,0 +1,82 @@
+.smallContainer{
+    background-color: #632523;
+    width: 100%;
+    height: 50px;
+    box-shadow: -10px 10px 10px -10px #070707;
+    color:#ffffff ;
+    position: fixed;
+    top:0px;
+    transition:ease-in-out;
+    display: flex;     
+}
+.dropMenu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 70vw;
+}
+.rightMenu{
+    display: none;;
+}
+.colormenu{
+    background-color: #070707;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 200px;
+}
+.menu{
+    width: 70px;
+    height: 35px;
+    background-color: #4F81BD;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.rightMenu span{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    display: block;
+}
+.dropMenu:hover .rightMenu{
+    display: block;
+}
+.rightMenu span:hover{
+   background-color: #4F81BD;
+   height: 30px;
+   border-radius: 2px;
+}
+.navbar{
+    display: none;
+}
+
+
+@media (min-width:400px) {
+.navbar{
+    height: 50px;
+    background-color: #632523;
+    display: flex;
+    color: #ffffff;
+    position:sticky;
+    top:0px;
+}
+.navbar-logo{
+    flex: 1;
+    margin:0px 10px;
+    font-family: 'Algerian' ;
+}
+.navbar-content{
+    display: flex;
+    justify-content:flex-end;
+}
+.navbar-content p{
+    margin:10px 10px 0px 10px;
+    font-family: 'Bell MT';
+}
+.smallContainer{
+    display: none;
+}
+}

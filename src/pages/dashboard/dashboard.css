@@ -1,0 +1,80 @@
+.allContainer{
+
+}
+.Container{
+    background:linear-gradient(to right,#5B1917, #671C1B, #7C2422,#8F3437,#A55351,#B26462) ;
+    height:300px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.buyCoin{
+    color: #ffffff;
+    font-size: larger;
+}
+.Container input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+}
+.boxContainer{    
+    display: flex;
+    justify-content: center;
+}
+.ContainerMain{
+    width: 98%;
+    margin: 10px 0px 0px 0px;
+    box-shadow:inset 10px 10px 10px 10px #888888, 
+                inset -10px -10px 10px 10px #888888,
+                -10px 10px 10px -10px #888888,  
+                10px -10px 10px -10px #888888;
+    border-radius: 5px;
+}
+.test{
+    background-color: #000000;
+    width: 200px;
+    height: 100px;
+}
+.boxContainerMain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.smallBox{
+    width: 200px;
+    height: 210px;
+    background-color: #D9D9D9;
+    margin: 30px 10px 10px 10px;
+    box-shadow: -10px 10px 10px -10px #888888,  10px -10px 10px -10px #888888;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.imageBox{
+    width: 180px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    box-shadow: -10px 10px 10px -10px #888888,  10px -10px 10px -10px #888888;
+}
+.scrollSmallBox{
+    width: 98%;
+    height: 30px;
+    background-color: #D9D9D9;
+    position: fixed;
+    bottom: 0px;
+}
+@media (min-width:400px) {
+    .buyCoin{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .Container input{
+        width: 400px;
+        height: 50px;
+    }
+
+}

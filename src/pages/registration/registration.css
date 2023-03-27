@@ -1,0 +1,133 @@
+.register{
+    background-color: #5B1917;
+    height: 100vh;
+}
+.register-content{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+.register-logo{
+display: none;
+}
+.register-form{
+    display: flex;
+    align-items:center;
+    margin: 0vh 0px 0px 0px;
+}
+.register-form input{
+    display: flex;
+    align-items: stretch;
+    height: 50px;
+    width: 350px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    font-size: 16px;
+}
+.register-form select{
+    display: flex;
+    align-items: stretch;
+    height: 50px;
+    width: 350px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.register-form button{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: none;
+    background: linear-gradient(#64E9FF, #3DBDDF, #3AB5D6, #36A9C7, #329CB8, #3390AB);
+}
+.register-form p{
+    margin: 10px;
+    color: #ffffff;
+    
+}
+@media (min-width:0px) {
+    .register-form{
+        margin-top: 70px;
+    }
+    .register-form input{
+        display: flex;
+        align-items: stretch;
+        height: 50px;
+        width: 250px;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        font-size: 16px;
+    }
+    .register-form select{
+        display: flex;
+        align-items: stretch;
+        height: 50px;
+        width: 250px;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        font-size: 16px;
+    }
+    
+    .register-form button{
+        height: 50px;
+        width: 100px;
+        border-radius: 5px;
+        border-style: none;
+        background: linear-gradient(#64E9FF, #3DBDDF, #3AB5D6, #36A9C7, #329CB8, #3390AB);
+    }
+}
+@media (min-width:400px) {
+    .register-content{
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+    }
+    .register-form input{
+        display: flex;
+        align-items: stretch;
+        height: 50px;
+        width: 350px;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        font-size: 16px;
+    }
+    .register-form select{
+        display: flex;
+        align-items: stretch;
+        height: 50px;
+        width: 350px;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        font-size: 16px;
+    }
+    
+    .register-form button{
+        height: 50px;
+        width: 150px;
+        border-radius: 5px;
+        border-style: none;
+        background: linear-gradient(#64E9FF, #3DBDDF, #3AB5D6, #36A9C7, #329CB8, #3390AB);
+    }
+}
+@media (min-width:888px) {
+    .register-logo{
+        display: block;
+        font-size: 100px;
+        font-family: 'Algerian';
+        margin: 30vh 30vw 0px 0px;
+        color: #ffffff;
+        }
+}

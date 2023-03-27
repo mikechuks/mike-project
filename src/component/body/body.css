@@ -1,0 +1,24 @@
+.body-container{
+    height: 300px;
+    background-color: #f2f2f2;
+    margin: 10px 40px 10px 40px;
+}
+.body-container p{
+    display: flex;
+    justify-content: flex-end;
+}
+.body-content-container{
+    display:flex;
+}
+.body-content{
+    height: 270px;
+    width: 250px;
+    background-color: #D9D9D9;
+    margin: 0px 10px 0px 10px;
+}
+.body-contenttwo{
+    height: 270px;
+    width: 200px;
+    background-color: #D9D9D9;
+    margin: 0px 0px 0px 10px;
+}
